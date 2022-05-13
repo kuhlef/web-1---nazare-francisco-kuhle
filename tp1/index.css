@@ -1,0 +1,328 @@
+*{
+    box-sizing: border-box
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+
+}
+
+h1{ font-size: 2.5em;}
+h2{ font-size: 3.0em}
+h3{ font-size: 1.0em}
+ul{ list-style: none;}
+footer { font-size: 1.0em;}
+h1{ font-family: 'roboto', sans-serif;}
+h2{ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+h3{ font-family: 'Oswald', sans-serif;}
+li { font-family: 'Oswald', sans-serif;}
+footer { font-family: 'roboto mono', monospace;}
+
+button {
+    font-size: 1.0em;
+    font-family: 'roboto', monospace;
+    padding: 2px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    background-color: rgb(40, 40, 49);
+}
+
+button:hover{
+    background-color: rgb(40, 40, 30);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(245, 245, 245);
+    height: 10vh;
+
+}
+
+header .logo{
+    color: white;
+    margin: 0;
+    font-family:'Source Code Pro', monospace;
+    font-size: 1.0em;
+    padding: 8px 30px ;
+    font-weight: bold;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3) 
+
+    )
+    ,url("media/logo.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    justify-content: center;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header .nav{
+    font-size: 4em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+    
+}
+
+header a{
+    font-size: 1.0em;
+    padding: 12px 50px;
+    text-decoration: none;
+    font-family: 'Source Code Pro', monospace;
+    color: black;
+    justify-content: center;
+    
+
+}
+
+header a:hover{
+    color: rgb(78, 78, 84);;
+}
+
+#nosotros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 70vh;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3) 
+
+    )
+    ,url("media/hero.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hot {
+    background-color: rgb(78, 78, 84);
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#hot .container{
+    padding: 40px 12px;
+
+}
+
+#hot .carta1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 30vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3) 
+
+    )
+    ,url("media/REMERA.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 8px;
+    background-position: center;
+}
+
+#hot .carta2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 30vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3) 
+
+    )
+    ,url("media/hoodie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 8px;
+    background-position: center;
+}
+
+#hot .carta3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction:column;
+    height: 30vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2) 
+
+    )
+    ,url("media/gorra.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px ;
+    padding: 50px;
+    border-radius: 8px;
+    background-position: center;
+}
+
+#info .container{
+    text-align: center;
+    padding: 13px 12px;
+}
+
+#info li{
+    margin: 16px 0px;
+}
+
+#redes .container{
+    text-align: center;
+    background-color: rgb(78, 78, 84);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2.5vh;
+    background-image: linear-gradient( 
+        0deg,
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2) 
+
+    )
+    ,url("media/DSC04932.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#redes h1{
+    font-size: 2em;
+    color: white;
+}
+
+section#saludo {
+    text-align: column;
+    color: rgb(78, 78, 84);
+}
+
+#saludo button{
+    align-items: baseline;
+}
+
+#redes h3{
+    color: white;
+}
+
+header{
+    padding: 2.5vh;
+}
+
+footer{
+    background-color: rgb(230,230,230);
+}
+
+footer p{
+    margin: 0;
+    padding: 5px;
+    color: rgb(100, 100, 100)
+}
+
+footer .container{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (min-width:720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 30px;
+    }
+
+    header a{
+        padding: 50px;
+    }
+
+    #hot .nuevo{
+        display: flex;
+        justify-content: center;
+    }
+
+    #hot {
+        padding: 50px
+    }
+
+    #redes .container{
+        justify-content: space-between;
+        text-align: center;
+        background-color: rgb(78, 78, 84);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1vh;
+        background-image: linear-gradient( 
+            0deg,
+            rgba(0,0,0,0.2),
+            rgba(0,0,0,0.2) 
+    
+        )
+        ,url("media/DSC04932.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+        max-width: 100%;
+
+    }
+
+
+
+    #info li{
+        height: 20px;
+        display: contents;
+        align-items: flex-end;
+    }
+    
+}
