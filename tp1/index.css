@@ -61,7 +61,7 @@ header .logo{
         rgba(0,0,0,0.3) 
 
     )
-    ,url("./tp1/media/logo.jpg");
+    ,url(".//media/logo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
@@ -113,7 +113,7 @@ header a:hover{
         rgba(0,0,0,0.3) 
 
     )
-    ,url("./tp1/media/hero.jpeg");
+    ,url("./media/hero.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -143,7 +143,7 @@ header a:hover{
         rgba(0,0,0,0.3) 
 
     )
-    ,url("./tp1/media/remera.jpg");
+    ,url("./media/remera.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 20px;
@@ -165,7 +165,7 @@ header a:hover{
         rgba(0,0,0,0.3) 
 
     )
-    ,url("./tp1/media/hoodie.jpg");
+    ,url("./media/hoodie.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 20px;
@@ -187,7 +187,7 @@ header a:hover{
         rgba(0,0,0,0.2) 
 
     )
-    ,url("./tp1/media/gorra.jpg");
+    ,url("./media/gorra.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 20px ;
@@ -220,7 +220,7 @@ header a:hover{
         rgba(0,0,0,0.2) 
 
     )
-    ,url("./tp1/media/redes.jpg");
+    ,url("./media/redes.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -310,7 +310,7 @@ footer .container{
             rgba(0,0,0,0.2) 
     
         )
-        ,url("./tp1/media/redes.jpg");
+        ,url("./media/redes.jpg");
         background-repeat: no-repeat;
         background-size: auto;
         max-width: 100%;
